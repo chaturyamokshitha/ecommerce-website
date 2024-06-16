@@ -1,7 +1,7 @@
 import './Nav.css'
 import {Link,NavLink} from 'react-router-dom'
 import Logo from '../../assets/logo.png'
-import {navLinks,navRight} from '../Data/Data'
+import {navLinks,navRight} from '../../Data/Data'
 export default function Nav() {
   return (
     <nav>
