@@ -1,12 +1,13 @@
 //import { useState } from 'react'
 
 
-import './App.css'
 
-const App = () => {
-  return (
-    <div></div>
-    );
-}
  
-export default App;
+
+import Router from './Router/Router'
+export default function App() {
+  return (
+    <Router />
+  )
+}
+
